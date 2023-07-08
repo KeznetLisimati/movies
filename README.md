@@ -1,3 +1,3 @@
 # movies-api
 Tools 
-Spring boot, JPA, Tomcate Server, MySQL Workbench, IntelliJ
+Spring boot, JPA, TomcatWebServer, MySQL Workbench, IntelliJ
