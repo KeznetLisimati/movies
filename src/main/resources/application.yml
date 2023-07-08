@@ -1,0 +1,26 @@
+server:
+  port: 5000
+
+#datasources
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: root
+    username: root
+    url: jdbc:mysql://localhost:3306/movies
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    generate-ddl: true
+#
+# #filelog
+#logging:
+#  file.name: logs/movies.log
+#  pattern:
+#    console: "%d [%t] %-5level %logger{36} - %msg%n"
+#    file: "%d [%t] %-5level %logger{36} - %msg%n"
+#  level:
+#    zw.co.kez.movies.controllers: INFO
+#    org.springframework: DEBUG
+#    org.hibernate: DEBUG
